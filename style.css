@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .nav-btn {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-btn.active {
+    background-color: #005f8d;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  .section.active {
+    display: block;
+  }
+  
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #008CBA;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  .next-btn, .submit-btn {
+    padding: 12px 20px;
+    background-color: #00b300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .next-btn:hover, .submit-btn:hover {
+    background-color: #008000;
+  }
